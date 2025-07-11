@@ -1,9 +1,49 @@
-# libredolar
+# LibreDólar ($LD)
 
-Que es $LibreDólar
-La moneda digital libre, transparente y sin fronteras
-LibreDólar ($LD) es un token descentralizado diseñado para ofrecer una alternativa segura, accesible y sin intermediarios a las monedas tradicionales y los sistemas financieros centralizados.
+**LibreDólar** es un token digital desarrollado en la red Polygon, basado en el estándar ERC20, con funcionalidades extendidas como quema de tokens (`burn`), comisión configurable en transferencias, y control de propiedad. Está diseñado como un activo útil para pagos, recompensas y economía descentralizada.
 
-Creado sobre la red Polygon, $LD permite realizar transacciones rápidas y y sin impuestos abusivos, sin depender de bancos ni entidades financieras, facilitando el envío y recepción de valor a nivel global sin restricciones regulatorias.
+---
 
-Más que una moneda, $LD es parte de un ecosistema colaborativo que conecta emprendedores, comercios, jugadores y desarrolladores, impulsando la libertad financiera, la innovación tecnológica y el crecimiento económico sostenible.
+## 🔗 Información del Token
+
+- **Nombre:** LibreDólar  
+- **Símbolo:** $LD  
+- **Decimales:** 18  
+- **Supply total:** 1.000.000.000 $LD  
+- **Red:** Polygon  
+- **Estándar:** ERC20  
+- **Dirección del contrato:** [`0x7f4DD9711d7f72163d9E75877A30574D7aEb4bae`](https://polygonscan.com/token/0x7f4DD9711d7f72163d9E75877A30574D7aEb4bae)
+
+---
+
+## 📄 Características del Contrato
+
+- ✅ Estándar ERC20 completo
+- 🔥 Soporte para `burn` y `burnFrom`
+- 💸 Comisión opcional configurable en transferencias
+- 🔐 Gestión de propietario (`owner`)
+- 🛠️ Funciones de administración accesibles solo por el owner
+
+---
+
+## ⚙️ Funcionalidades Administrativas
+
+- `setFeeCollector(address)` – Define la dirección que recibe las comisiones.
+- `setFeePercent(uint256)` – Ajusta el porcentaje de comisión (máx. 10%).
+- `setFeeActive(bool)` – Activa o desactiva la comisión.
+- `transferOwnership(address)` – Transfiere la propiedad del contrato.
+
+---
+
+## 🧾 Verificación
+
+- El contrato está verificado en Polygonscan:  
+  👉 [https://polygonscan.com/token/0x7f4DD9711d7f72163d9E75877A30574D7aEb4bae](https://polygonscan.com/token/0x7f4DD9711d7f72163d9E75877A30574D7aEb4bae)
+
+---
+
+## 📦 Estructura
+
+Este repositorio contiene el archivo principal del contrato inteligente:
+
+
