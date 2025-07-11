@@ -1,3 +1,10 @@
+/**
+ * @title LibreDólar ($LD)
+ * @dev Token ERC20 sobre la red Polygon, con comisión configurable, quemado de tokens y control de propiedad.
+ * Dirección del contrato: 0x7f4DD9711d7f72163d9E75877A30574D7aEb4bae
+ * Más información: https://libredolar.org
+ */
+
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
 
